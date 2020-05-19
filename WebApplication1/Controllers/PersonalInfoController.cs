@@ -10,7 +10,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Personal Info";
             var pList = new Biz.PersonalInfoBiz().getList();
             return View(pList);
         }
