@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{1C28DD6D-3748-4D3C-949D-7F5CBF844BB2}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "SSDT\Database1\Database1.sqlproj", "{AC94F9E5-4647-49C4-8398-3BB7131ED733}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{1C28DD6D-3748-4D3C-949D-7F5CBF844BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C28DD6D-3748-4D3C-949D-7F5CBF844BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C28DD6D-3748-4D3C-949D-7F5CBF844BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC94F9E5-4647-49C4-8398-3BB7131ED733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC94F9E5-4647-49C4-8398-3BB7131ED733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC94F9E5-4647-49C4-8398-3BB7131ED733}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC94F9E5-4647-49C4-8398-3BB7131ED733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC94F9E5-4647-49C4-8398-3BB7131ED733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC94F9E5-4647-49C4-8398-3BB7131ED733}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

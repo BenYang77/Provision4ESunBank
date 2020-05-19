@@ -2,3 +2,9 @@
 
 ..vs/AspNetWebApp/v16/Server/sqlite3/db.lock
 .vs/AspNetWebApp/v16/Server/sqlite3/db.lock
+WebApplication1/App_Data/DB4ESunBank.mdf
+SSDT/Database1/obj/Debug/*
+SSDT/Database1/bin/*
+WebApplication1/obj/Debug/*
+WebApplication1/App_Data/DB4ESunBank_log.ldf
+WebApplication1/obj/Debug/*
