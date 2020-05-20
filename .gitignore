@@ -8,3 +8,6 @@ SSDT/Database1/bin/*
 WebApplication1/obj/Debug/*
 WebApplication1/App_Data/DB4ESunBank_log.ldf
 WebApplication1/obj/Debug/*
+SSDT/Database1/Database1.dbmdl
+SSDT/Database1/Database1.jfm
+WebApplication1/bin/WebApplication1.*

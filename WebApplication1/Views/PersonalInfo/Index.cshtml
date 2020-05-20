@@ -22,9 +22,9 @@
         @Html.DisplayFor(modelItem => item.birthdate)
       </td>
       <td>
-        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-        @Html.ActionLink("Details", "Details", new { id = item.security_id }) |
-        @Html.ActionLink("Delete", "Delete", new { id = item.security_id })
+        @Html.ActionLink("PersonalInfo", "Edit", new { id = item.Id }) |
+        @Html.ActionLink("PersonalInfo", "Details", new { id = item.security_id }) |
+        @Html.ActionLink("PersonalInfo", "Delete", new { id = item.security_id })
       </td>
     </tr>
   }

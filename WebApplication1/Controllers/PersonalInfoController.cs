@@ -14,5 +14,37 @@ namespace WebApplication1.Controllers
             var pList = new Biz.PersonalInfoBiz().getList();
             return View(pList);
         }
+
+        //[HttpPost]
+        //public ActionResult PostAction()
+        //{
+        //    return View("Index");
+        //}
+
+        [HttpDelete]
+        [ActionName("Delete")]
+        public ActionResult DeleteAction()
+        {
+            return View("Index");
+        }
+
+        //[HttpHead]
+        //public ActionResult HeadAction()
+        //{
+        //    return View("Index");
+        //}
+
+        //[HttpOptions]
+        //public ActionResult OptionsAction()
+        //{
+        //    return View("Index");
+        //}
+
+        //[HttpPatch]
+        //[System.Web.Mvc.ActionName("")]
+        //public ActionResult PatchAction()
+        //{
+        //    return View("Index");
+        //}
     }
 }
