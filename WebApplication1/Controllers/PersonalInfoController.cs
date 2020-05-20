@@ -7,7 +7,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    
+
     public class PersonalInfoController : Controller
     {
         public ActionResult Index()
@@ -26,7 +26,6 @@ namespace WebApplication1.Controllers
         [ActionName("Edit")]
         public ActionResult EditAction(int id)
         {
-            //return RedirectToAction("Index");
             var pList = new Biz.PersonalInfoBiz().getThisList(id).FirstOrDefault();
 
             return View(pList);
@@ -36,7 +35,7 @@ namespace WebApplication1.Controllers
         public ActionResult Edit(PersonalInfoModel personalInfo)
         {
             //write code to update student 
-
+            var pList = new Biz.PersonalInfoBiz().updateThisList(personalInfo);
             return RedirectToAction("Index");
         }
 

@@ -11,6 +11,7 @@ namespace WebApplication1.Models
         [Display(Name = "姓名")]
         public new string name { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}")]
         [Display(Name = "生日")]
         public new System.DateTime birthdate { get; set; }
     }
