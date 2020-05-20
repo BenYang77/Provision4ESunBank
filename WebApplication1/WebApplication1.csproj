@@ -292,6 +292,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\PersonalInfo\Index.cshtml" />
     <Content Include="Views\PersonalInfo\Edit.cshtml" />
+    <Content Include="Views\PersonalInfo\Details.cshtml" />
+    <Content Include="Views\PersonalInfo\Create.cshtml" />
+    <Content Include="Views\PersonalInfo\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
