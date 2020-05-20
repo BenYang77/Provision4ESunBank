@@ -291,6 +291,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\PersonalInfo\Index.cshtml" />
+    <Content Include="Views\PersonalInfo\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

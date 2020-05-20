@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
+    
     public class PersonalInfoController : Controller
     {
         public ActionResult Index()
@@ -15,17 +17,33 @@ namespace WebApplication1.Controllers
             return View(pList);
         }
 
-        //[HttpPost]
-        //public ActionResult PostAction()
-        //{
-        //    return View("Index");
-        //}
-
-        [HttpDelete]
         [ActionName("Delete")]
-        public ActionResult DeleteAction()
+        public ActionResult DeleteAction(int id)
         {
-            return View("Index");
+            return RedirectToAction("Index");
+        }
+
+        [ActionName("Edit")]
+        public ActionResult EditAction(int id)
+        {
+            //return RedirectToAction("Index");
+            var pList = new Biz.PersonalInfoBiz().getThisList(id).FirstOrDefault();
+
+            return View(pList);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(PersonalInfoModel personalInfo)
+        {
+            //write code to update student 
+
+            return RedirectToAction("Index");
+        }
+
+        [ActionName("Details")]
+        public ActionResult DetailsAction(int id)
+        {
+            return RedirectToAction("Index");
         }
 
         //[HttpHead]
